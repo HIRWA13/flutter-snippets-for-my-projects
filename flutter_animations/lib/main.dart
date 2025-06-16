@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animations/pages/animated_cross_fade/animated_cross_fade.dart';
+// import 'package:flutter_animations/pages/animated_cross_fade/animated_cross_fade.dart';
+import 'package:flutter_animations/pages/swipe_to_delete/swipe_to_delete.dart';
 // import 'package:flutter_animations/pages/animated_demo.dart';
 // import 'package:flutter_animations/pages/hero_animation/home_screen.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: AnimatedCrossFadeDemo()
+      home: SwipeToDelete()
     );
   }
 }
